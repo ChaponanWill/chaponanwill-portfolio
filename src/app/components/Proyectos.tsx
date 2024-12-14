@@ -1,11 +1,23 @@
-import React from 'react'
+/* eslint-disable @next/next/no-img-element */
 
-function Proyectos() {
+import React from 'react'
+import { FaCodeBranch } from "react-icons/fa";
+
+
+
+async function Proyectos() {
+
   return (
     <section className='max-w-screen-xl mx-auto w-[90%] mt-24 backdrop-blur-lg p-2 rounded-md'>
-        <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, quae dolorem est eius ea quidem fuga atque suscipit placeat, eligendi minus molestiae omnis aperiam voluptate facere optio facilis sint. Placeat!
+        <div className='p-2 '>
+          <div className='flex flex-row  items-center text-3xl gap-4 font-semibold my-3'>
+          <FaCodeBranch />
+            <h2>Proyectos</h2>
+          </div>
+          <div className='my-4'>
+
         </div>
+      </div>
     </section>
   )
 }
