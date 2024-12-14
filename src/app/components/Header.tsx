@@ -20,7 +20,7 @@ const navItems = [
 ]
 export default function Header() {
     return (
-        <header className="w-full fixed top-0 z-30 flex items-center justify-center mt-8 ">
+        <header className="w-full fixed top-0 z-30 flex items-center justify-center pt-8 pb-3 backdrop-blur-sm">
             <nav className=" flex px-3 text-sm font-medium rounded-full text-gray-600 bg-white shadow-lg  ">
                 {
                     navItems.map((link) => (

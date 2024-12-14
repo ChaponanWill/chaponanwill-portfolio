@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import React, { ReactElement } from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
-import BoxReveal from "@/components/ui/box-reveal";
+import PersonalBoxReveal from "./PersonalBoxReveal";
+import { RainbowButton } from "@/components/ui/rainbow-button";
 
 const socialLinks = [
     {
@@ -36,19 +36,9 @@ const socialLinks = [
     },
 ];
 
-const PersonalBoxReveal = ({
-    children,
-}: Readonly<{ children: ReactElement }>) => {
-    return (
-        <BoxReveal boxColor={"#fff"} duration={0.5}>
-            {children}
-        </BoxReveal>
-    );
-};
-
 const Presentacion = () => {
     return (
-        <section className="max-w-screen-xl mx-auto w-[90%] mt-24 ">
+        <section className="max-w-screen-xl mx-auto w-[90%] mt-28 ">
             <PersonalBoxReveal>
                 <div className="flex flex-row  items-center gap-8  ">
                     <img
@@ -59,14 +49,13 @@ const Presentacion = () => {
                         alt="chaponanwill"
                         title="chaponanwill | William Chapoñan"
                     />
-
-                    <h1 className="text-xl font-bold text-center mt-10 mb-10 px-10 bg-black p-1 rounded-full">
-                        Chaponanwill
-                    </h1>
+                    <a href="https://www.linkedin.com/in/chaponanwill">
+                    <RainbowButton>Contáctame</RainbowButton>
+                    </a>
                 </div>
             </PersonalBoxReveal>
-            {/* absolute w-full py-2 text-lg font-bold text-center text-white bottom-5 backdrop-blur-lg */}
-            <div className=" mt-7 backdrop-blur-sm p-2">
+
+            <div className=" mt-7 backdrop-blur-sm p-2 rounded-lg">
                 <PersonalBoxReveal>
                     <h2 className="font-bold text-2xl md:text-4xl ">
                         Hey, Soy{" "}
@@ -85,7 +74,7 @@ const Presentacion = () => {
                     <div className="flex flex-row gap-4 mt-10 text-3xl">
                         {socialLinks.map((link) => (
                             <a
-                                className="relative block px-2 py-2 transition hover:text-blue-500 hover:font-bold"
+                                className="relative block px-2 py-2 transition hover:text-blue-100 hover:font-bold"
                                 key={link.id}
                                 href={link.url}
                             >
@@ -97,8 +86,6 @@ const Presentacion = () => {
             </div>
         </section>
     );
-}
-
-
+};
 
 export default Presentacion;
