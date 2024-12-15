@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 
 import { cn } from "@/lib/utils";
 
@@ -10,8 +10,9 @@ interface MarqueeProps {
   children?: React.ReactNode;
   vertical?: boolean;
   repeat?: number;
-  [key: string]: any;
+  [key: string]: unknown;
 }
+
 
 export default function Marquee({
   className,

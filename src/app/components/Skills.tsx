@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import PersonalBoxReveal from "./PersonalBoxReveal";
 import { FaCode } from "react-icons/fa";
