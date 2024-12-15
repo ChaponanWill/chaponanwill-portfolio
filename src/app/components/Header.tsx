@@ -1,4 +1,3 @@
-import { FaUserSecret } from "react-icons/fa6";
 import { FaUserTie } from "react-icons/fa6";
 const navItems = [
     {
