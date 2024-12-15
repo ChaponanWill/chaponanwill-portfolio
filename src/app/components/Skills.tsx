@@ -12,7 +12,6 @@ const skills = [
         image: "/skills/css_old.svg",
         title: "CSS",
     },
-    // javascript,typescript, git, github, tailwindcss, nextjs_logo_light, astro, vitejs, react, npm, nodejs, prisma, shadcn-ui, bootstrap, chakra-ui, flowbite, materialui, prettier-icon-light, figma, strapi, algolia, jwt, cloudinary, json, markdown-light,neon, postgresql, supabase, mysql, sql-server, netlify, vercel_wordmark, docker, visual-studio, vscode, sublimetext,google-idx, windows, bing, brave, discord, eclipse, firefox, obs, linux, notion, outlook, gmail, mercado-pago, shopify, stripe, php, python, laravel
     {
         id: 3,
         image: "/skills/javascript.svg",
@@ -308,19 +307,19 @@ function Skills() {
                 </PersonalBoxReveal>
                 <div className="flex flex-row flex-wrap gap-x-5 my-4 w-full items-center ">
                     {skills.map((skill) => (
-                        <PersonalBoxReveal>
-                            <div
-                                className="flex flex-row items-center gap-4 my-4 p-2 rounded-full border border-zinc-950/10 bg-gray-300"
-                                key={skill.id}
-                            >
+                        <div
+                            className="flex flex-row items-center gap-4 my-4 p-2 rounded-full border border-zinc-950/10 bg-gray-300"
+                            key={skill.id}
+                        >
+                            <PersonalBoxReveal>
                                 <img
                                     src={skill.image}
                                     alt={skill.title}
                                     title={skill.title}
                                     className="size-5 md:size-8 hover:scale-105 transition-all duration-300 "
                                 />
-                            </div>
-                        </PersonalBoxReveal>
+                            </PersonalBoxReveal>
+                        </div>
                     ))}
                 </div>
             </div>
