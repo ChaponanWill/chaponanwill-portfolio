@@ -40,7 +40,7 @@ const Presentacion = () => {
     return (
         <section className="max-w-screen-xl mx-auto w-[90%] mt-28 ">
             <PersonalBoxReveal>
-                <div className="flex flex-row  items-center gap-8  ">
+                <div className="flex flex-row  items-center gap-8 p-2 ">
                     <img
                         src="/chaponanwill/chaponanwill.webp"
                         width={70}
@@ -49,7 +49,7 @@ const Presentacion = () => {
                         alt="chaponanwill"
                         title="chaponanwill | William Chapoñan"
                     />
-                    <a href="https://www.linkedin.com/in/chaponanwill">
+                    <a href="https://www.linkedin.com/in/chaponanwill" target="_blank">
                     <RainbowButton>Contáctame</RainbowButton>
                     </a>
                 </div>
@@ -71,12 +71,14 @@ const Presentacion = () => {
                     </p>
                 </PersonalBoxReveal>
                 <PersonalBoxReveal>
-                    <div className="flex flex-row gap-4 mt-10 text-3xl">
+                    <div className="flex flex-row gap-5 mt-10 text-3xl">
                         {socialLinks.map((link) => (
                             <a
-                                className="relative block px-2 py-2 transition hover:text-blue-100 hover:font-bold"
+                                className="relative block  py-2 transition hover:text-blue-100 hover:font-bold"
                                 key={link.id}
                                 href={link.url}
+                                title={link.title}
+                                target="_blank"
                             >
                                 {link.icon}
                             </a>
@@ -84,6 +86,7 @@ const Presentacion = () => {
                     </div>
                 </PersonalBoxReveal>
             </div>
+            <div id="experiencia"></div>
         </section>
     );
 };

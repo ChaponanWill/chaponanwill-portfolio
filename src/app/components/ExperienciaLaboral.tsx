@@ -27,21 +27,24 @@ const experienciaLaboral = [
 
 function ExperienciaLaboral() {
     return (
-        <section className="max-w-screen-xl mx-auto w-[90%] mt-24 p-2 backdrop-blur-sm rounded-md">
+        <section className="mt-24 max-w-screen-xl mx-auto w-[90%]  p-2 backdrop-blur-sm rounded-md" >
+            
             <PersonalBoxReveal>
-            <div className="flex flex-row  items-center text-3xl gap-4 font-semibold my-3">
+            <div className="flex flex-row  items-center text-3xl gap-4 font-semibold my-3 ">
                 <GrWorkshop />
                 <h3>Experiencia Laboral</h3>
             </div>
             </PersonalBoxReveal>
-            <PersonalBoxReveal>
-            <div className="my-4">
+            
+            <div className="my-4 p-3">
                 <ol className="relative border-s border-gray-200 dark:border-gray-700">
+                    
                     {experienciaLaboral.map((link) => (
                         <li className="mb-10 ms-4" key={link.id}>
-                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white "></div>
                             <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-2 items-center">
-                                <div className="flex- flex-col">
+                            <PersonalBoxReveal>
+                                <div className="flex flex-col">
                                     <time className="mb-1 text-sm font-normal leading-none text-gray-100 ">
                                         {link.fechaInicio}
                                     </time>
@@ -49,17 +52,21 @@ function ExperienciaLaboral() {
                                         {link.title}
                                     </h3>
                                 </div>
+                            </PersonalBoxReveal>
+                            <PersonalBoxReveal>
                                 <div >
                                     <p className="mb-4 text-base font-semibold">
                                         {link.descripcion}
                                     </p>
                                 </div>
+                            </PersonalBoxReveal>
                             </div>
                         </li>
                     ))}
                 </ol>
             </div>
-            </PersonalBoxReveal>
+            <div id="proyectos"></div>
+            
         </section>
     );
 }
