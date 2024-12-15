@@ -1,11 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
-
 import { cn } from "@/lib/utils";
 interface RainbowButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
-
 export function RainbowButton({
   children,
   className,
@@ -18,9 +14,6 @@ export function RainbowButton({
 
         // light mode colors
         "bg-[linear-gradient(#b8f3f3,#047060),linear-gradient(#121213_50%,rgba(18,18,19,0.6)_80%,rgba(18,18,19,0)),linear-gradient(90deg,hsl(var(--color-1)),hsl(var(--color-5)),hsl(var(--color-3)),hsl(var(--color-4)),hsl(var(--color-2)))]",
-
-        
-
         className,
       )}
       {...props}
