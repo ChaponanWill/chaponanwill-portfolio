@@ -57,6 +57,11 @@ const reviews = [
   },
   {
     id:11,
+    name: "Excel - Tablas y Gráficos Dinámicos",	
+    img: "/certificaciones/Tablas_Graficos_Dinamicos.webp",
+  },
+  {
+    id:12,
     name: "Agrovisión - Certificado de Trabajo",
     img: "/certificaciones/certificado_trabajo.webp",
   }
