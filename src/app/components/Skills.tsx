@@ -286,11 +286,6 @@ const skills = [
         image: "/skills/notion.svg",
         title: "Notion",
     },
-    {
-        id: 59,
-        image: "/skills/chakra-ui.svg",
-        title: "Chakra UI",
-    },
 ];
 function Skills() {
     return (
