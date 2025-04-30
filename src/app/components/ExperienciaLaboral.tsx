@@ -23,6 +23,19 @@ const experienciaLaboral = [
         descripcion:
             "Desarrollé un e-commerce para Ari Sports, gestionando el proyecto desde el diseño en Figma hasta su despliegue en Vercel y Render. Utilicé Strapi para el backend y Next.js para el frontend, integrando herramientas como Zustand y Shadcn/ui. Implementé control de versiones con Git y GitHub, asegurando una experiencia fluida y un diseño responsivo.",
     },
+    {
+        id: 4,
+        title: "Colegio José Olaya",
+        fechaInicio: "Enero 2025",
+        descripcion: "Lideré el desarrollo de un sistema de reservas utilizando Laravel y MySQL, diseñando una arquitectura escalable que garantizara el crecimiento futuro del proyecto. Implementé la metodología GitFlow para un control de versiones eficiente, lo que optimizó el flujo de trabajo del equipo. Además, empleé Excel para el análisis de datos, el seguimiento del progreso y la toma de decisiones estratégicas durante el desarrollo."
+    }, 
+    
+    {
+        id: 5,
+        title: "Aroma Coffee",
+        fechaInicio: "Marzo 2025",
+        descripcion: "Lideré el desarrollo de un sistema de pedidos escalable utilizando Filament PHP y MySQL, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa. Implementé GitFlow para fortalecer el control de versiones y mejorar la colaboración dentro del equipo de desarrollo. Además, utilicé Excel y Power BI para analizar datos y generar reportes clave que respaldaron decisiones estratégicas sobre el rendimiento del sistema."
+    }
 ];
 
 function ExperienciaLaboral() {

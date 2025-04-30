@@ -19,11 +19,11 @@ const skills = [
         image: "/skills/javascript.svg",
         title: "JavaScript",
     },
-    {
-        id: 4,
-        image: "/skills/typescript.svg",
-        title: "TypeScript",
-    },
+    // {
+    //     id: 4,
+    //     image: "/skills/typescript.svg",
+    //     title: "TypeScript",
+    // },
     {
         id: 5,
         image: "/skills/git.svg",
@@ -64,11 +64,11 @@ const skills = [
         image: "/skills/npm.svg",
         title: "NPM",
     },
-    {
-        id: 13,
-        image: "/skills/nodejs.svg",
-        title: "NodeJS",
-    },
+    // {
+    //     id: 13,
+    //     image: "/skills/nodejs.svg",
+    //     title: "NodeJS",
+    // },
     {
         id: 14,
         image: "/skills/prisma.svg",
@@ -145,11 +145,11 @@ const skills = [
         image: "/skills/postgresql.svg",
         title: "PostgreSQL",
     },
-    {
-        id: 30,
-        image: "/skills/neon.svg",
-        title: "Neon",
-    },
+    // {
+    //     id: 30,
+    //     image: "/skills/neon.svg",
+    //     title: "Neon",
+    // },
     {
         id: 31,
         image: "/skills/supabase.svg",
@@ -180,11 +180,11 @@ const skills = [
         image: "/skills/docker.svg",
         title: "Docker",
     },
-    {
-        id: 37,
-        image: "/skills/visual-studio.svg",
-        title: "Visual Studio",
-    },
+    // {
+    //     id: 37,
+    //     image: "/skills/visual-studio.svg",
+    //     title: "Visual Studio",
+    // },
     {
         id: 38,
         image: "/skills/vscode.svg",
@@ -235,11 +235,6 @@ const skills = [
         id: 47,
         image: "/skills/linux.svg",
         title: "Linux",
-    },
-    {
-        id: 48,
-        image: "/skills/notion.svg",
-        title: "Notion",
     },
     {
         id: 49,

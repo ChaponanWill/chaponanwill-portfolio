@@ -16,7 +16,7 @@ const proyectos = [
     },
     {
         id: 2,
-        title: "Chiclayo Gymnastics",
+        title: "Chiclayogymnastics",
         description:
             "Página web para Chiclayogymnastics, optimizando rendimiento, SEO y experiencia de usuario.",
         image: "/projects/chiclayogymnastics.webp",
@@ -30,6 +30,28 @@ const proyectos = [
         image: "/projects/landing_page.webp",
         url: "https://banco-chaponawill.netlify.app",
     },
+    {
+        id: 4,
+        title: "Paradero las Pizzas",
+        description: "Página web para el restaurante Paradero Las Pizzas, optimizando rendimiento, SEO y experiencia de usuario.",
+        image: "/projects/paraderolaspizzas.webp",
+        url: "https://paraderolaspizzas.netlify.app"
+    },
+    {
+        id: 5,
+        title: "Sistema de Reservas",
+        description: "Sistema de reservas para el colegio José Olaya, diseñado para gestionar reservas de aulas.",
+        image: "/projects/jose-olaya.webp",
+        
+    },
+    {
+        id: 6,
+        title: "Aroma Coffee",
+        description:
+            "Sistema de pedidos para Aroma Coffee, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa.",
+        image: "/projects/aroma-coffee.webp",
+        
+    }
 ];
 
 function Proyectos() {
@@ -63,18 +85,22 @@ function Proyectos() {
                                         <p className="text-lg p-2">
                                             {link.description}
                                         </p>
-                                        <div className="flex flex-row justify-center items-center gap-4 ">
-                                            <a
-                                                href={link.url}
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="flex flex-row items-center gap-2 text-gray-200 hover:text-blue-200 transition-all duration-300 border border-zinc-950/10 rounded-lg p-2 shadow-lg"
-                                                title={link.title}
-                                            >
-                                                <Link />
-                                                <p>Ver Página</p>
-                                            </a>
-                                        </div>
+                                        {/* Si existe url, muestra el div */}
+                                        {link.url && (
+                                            <div className="flex flex-row justify-center items-center gap-4 ">
+                                                <a
+                                                    href={link.url}
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    className="flex flex-row items-center gap-2 text-gray-200 hover:text-blue-200 transition-all duration-300 border border-zinc-950/10 rounded-lg p-2 shadow-lg"
+                                                    title={link.title}
+                                                >
+                                                    <Link />
+                                                    <p>Ver Proyecto</p>
+                                                </a>
+                                            </div>
+                                        )}
+                                        
                                     </div>
                                 </div>
                             </PersonalBoxReveal>
