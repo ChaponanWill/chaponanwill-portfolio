@@ -46,7 +46,7 @@ const proyectos = [
     },
     {
         id: 6,
-        title: "Aroma Coffee",
+        title: "Sistema de Pedidos",
         description:
             "Sistema de pedidos para Aroma Coffee, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa.",
         image: "/projects/aroma-coffee.webp",
