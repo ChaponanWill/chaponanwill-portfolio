@@ -40,7 +40,7 @@ const proyectos = [
     {
         id: 5,
         title: "Sistema de Reservas",
-        description: "Sistema de reservas para el colegio José Olaya, diseñado para gestionar reservas de aulas.",
+        description: "Sistema de reservas para el colegio secundario, diseñado para gestionar reservas de aulas.",
         image: "/projects/jose-olaya.webp",
         
     },
@@ -48,7 +48,7 @@ const proyectos = [
         id: 6,
         title: "Sistema de Pedidos",
         description:
-            "Sistema de pedidos para Aroma Coffee, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa.",
+            "Sistema de pedidos cafetería, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa.",
         image: "/projects/aroma-coffee.webp",
         
     }
