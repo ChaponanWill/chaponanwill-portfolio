@@ -32,7 +32,7 @@ const experienciaLaboral = [
     
     {
         id: 5,
-        title: "Cafeteria",
+        title: "Cafetería",
         fechaInicio: "Marzo 2025",
         descripcion: "Lideré el desarrollo de un sistema de pedidos escalable utilizando Filament PHP y MySQL, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa. Implementé GitFlow para fortalecer el control de versiones y mejorar la colaboración dentro del equipo de desarrollo. Además, utilicé Excel y Power BI para analizar datos y generar reportes clave que respaldaron decisiones estratégicas sobre el rendimiento del sistema."
     }
