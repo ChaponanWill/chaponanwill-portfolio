@@ -51,6 +51,14 @@ const proyectos = [
             "Sistema de pedidos cafetería, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa.",
         image: "/projects/aroma-coffee.webp",
         
+    },
+    {
+        id: 7,
+        title: "Landing Page de Evento de Gimnasia",
+        description:
+            "Landing page para un evento de gimnasia, diseñada para captar la atención de los usuarios y proporcionar información clara.",
+        image: "/projects/evento_gimnasia.webp",
+        url: "https://campeonatoregional2025.netlify.app"
     }
 ];
 
