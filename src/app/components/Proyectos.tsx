@@ -20,7 +20,6 @@ const proyectos = [
         description:
             "Página web para Chiclayogymnastics, optimizando rendimiento, SEO y experiencia de usuario.",
         image: "/projects/chiclayogymnastics.webp",
-        url: "https://chiclayogymnastics.com",
     },
     {
         id: 3,

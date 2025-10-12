@@ -2,6 +2,15 @@ import React from "react";
 import { GrWorkshop } from "react-icons/gr";
 import PersonalBoxReveal from "./PersonalBoxReveal";
 const experienciaLaboral = [
+
+    {
+        id: 0,
+        title: "Agrovisión Perú",
+        fechaInicio: "Agosto 2021",
+        descripcion:
+            "Supervisé y aseguré la calidad de las labores agrícolas en campo, enviando reportes detallados en Excel para optimizar las operaciones y mejorar la productividad.",
+    },
+    
     {
         id: 1,
         title: "Municipalidad Distrital de Pacora",
@@ -35,7 +44,20 @@ const experienciaLaboral = [
         title: "Cafetería",
         fechaInicio: "Marzo 2025",
         descripcion: "Lideré el desarrollo de un sistema de pedidos escalable utilizando Filament PHP y MySQL, optimizando la arquitectura para soportar el crecimiento y la eficiencia operativa. Implementé GitFlow para fortalecer el control de versiones y mejorar la colaboración dentro del equipo de desarrollo. Además, utilicé Excel y Power BI para analizar datos y generar reportes clave que respaldaron decisiones estratégicas sobre el rendimiento del sistema."
-    }
+    },
+    {
+        id: 6,
+        title: "Digital Consulting",
+        fechaInicio: "Abril 2025",
+        descripcion: "Colaboré en el desarrollo de diferentes sistemas web desarrolladas en PHP, React y Node.js. Implementé prácticas de SEO para mejorar la visibilidad del sitio en motores de búsqueda. Además, utilicé Git y GitHub para el control de versiones, facilitando la colaboración efectiva dentro del equipo de desarrollo."
+    },
+    {
+        id: 7,
+        title: "Agrovisión Perú",
+        fechaInicio: "Abril 2025",
+        descripcion: "Desarrollé la labor de digitador, gestionando y organizando datos agrícolas con precisión y eficiencia. A esto le sumo la creación de informes detallados en Excel para optimizar las operaciones agrícolas y mejorar la toma de decisiones."
+    },
+
 ];
 
 function ExperienciaLaboral() {
