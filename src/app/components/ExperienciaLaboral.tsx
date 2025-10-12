@@ -54,7 +54,7 @@ const experienciaLaboral = [
     {
         id: 7,
         title: "Agrovisión Perú",
-        fechaInicio: "Abril 2025",
+        fechaInicio: "Setiembre 2025",
         descripcion: "Desarrollé la labor de digitador, gestionando y organizando datos agrícolas con precisión y eficiencia. A esto le sumo la creación de informes detallados en Excel para optimizar las operaciones agrícolas y mejorar la toma de decisiones."
     },
 
