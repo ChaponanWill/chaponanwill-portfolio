@@ -52,7 +52,7 @@ const reviews = [
   },
   {
     id:10,
-    name: "Contruye una Tienda en Shopify",
+    name: "Construye una Tienda en Shopify",
     img: "/certificaciones/shopify.webp",
   },
   {
