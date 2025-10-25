@@ -58,6 +58,12 @@ const proyectos = [
             "Landing page para un evento de gimnasia, diseñada para captar la atención de los usuarios y proporcionar información clara.",
         image: "/projects/evento_gimnasia.webp",
         url: "https://campeonatoregional2025.netlify.app"
+    },
+    {
+        id: 8,
+        title: "Proyecto Voluntariado",
+        description: "Proyecto de gestión de voluntarios, diseñado para la gestión de voluntarios. Proyecto realizado con PHP y MySQL.",
+        image: "/projects/proyecto-voluntariado.webp",
     }
 ];
 
