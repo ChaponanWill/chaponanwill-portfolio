@@ -57,6 +57,12 @@ const experienciaLaboral = [
         fechaInicio: "Setiembre 2025",
         descripcion: "Desarrollé la labor de digitador, gestionando y organizando datos agrícolas con precisión y eficiencia. A esto le sumo la creación de informes detallados en Excel para optimizar las operaciones agrícolas y mejorar la toma de decisiones."
     },
+    {
+        id: 8,
+        title: "Ferconor",
+        fechaInicio: "Marzo 2026",
+        descripcion: "Implementé y administré infraestructura de despliegue en un servidor VPS utilizando contenedores Docker mediante la plataforma Dockploy. Realicé la instalación, configuración y despliegue del sistema de comercio electrónico Bagisto, incluyendo la creación y gestión de la base de datos. Además, configuré los servicios necesarios para garantizar el correcto funcionamiento de la aplicación, optimizando el entorno de producción para asegurar estabilidad, escalabilidad y eficiencia operativa"
+    }
 
 ];
 

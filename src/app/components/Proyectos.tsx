@@ -34,7 +34,6 @@ const proyectos = [
         title: "Paradero las Pizzas",
         description: "Página web para el restaurante Paradero Las Pizzas, optimizando rendimiento, SEO y experiencia de usuario.",
         image: "/projects/paraderolaspizzas.webp",
-        url: "https://paraderolaspizzas.netlify.app"
     },
     {
         id: 5,
@@ -64,6 +63,12 @@ const proyectos = [
         title: "Proyecto Voluntariado",
         description: "Proyecto de gestión de voluntarios, diseñado para la gestión de voluntarios. Proyecto realizado con PHP y MySQL.",
         image: "/projects/proyecto-voluntariado.webp",
+    },
+    {
+        id: 9,
+        title: "E-commerce - Ferconor",
+        description: "E-commerce para el productor de ferretería, diseñado para la cotización de productos.",
+        image: "/projects/ferconor.webp",
     }
 ];
 
